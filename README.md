@@ -1,2 +1,1 @@
-# Bioinformatician
-I use Bash scripting.  
+# Bioinformatician, Bash scripting.  
