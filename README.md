@@ -1,1 +1,3 @@
-# Bioinformatician bash script example
+# Bioinformatician 
+
+bash script example
