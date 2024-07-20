@@ -1,1 +1,1 @@
-# Bioinformatician, Bash scripting.  
+# Bioinformatician bash script example
