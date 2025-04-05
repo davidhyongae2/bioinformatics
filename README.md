@@ -1,3 +1,3 @@
-# Chem/Bioinformatician 
+## Chem/Bioinformatician 
 
-bash script example
+Bash script examples
