@@ -11,7 +11,7 @@ wine c:\\path\\to\\your\\Meteor nexus
 open -a safari https://biotransformer.ca/new
 CC(=O)O,C(=O)O,C=CC(=O)O
 
-#EPA https://qed.epa.gov/cts/chemspec/input/
+#U.S. Environmental Protection Agency(2017)CTS: Chemical Transformation Simulator 3.1.3. U.S. Environmental Protection Agency. https://qed.epa.gov/cts/chemspec/input/
 #error
 curl -X POST -d "Initial_SMILES=CC(=O)O" https://qed.epa.gov/cts/chemspec/input/
 
