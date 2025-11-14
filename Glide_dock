@@ -1,0 +1,36 @@
+#Physical-docking
+#using Glide
+#based on CCG grid method
+from schrodinger.structure import StructureReader
+
+#test file
+test.pdb
+
+c = get_centroid(test.pdb)
+x,y,z = c[:3]
+
+GRID_IN = """
+GRID_CENTER {x},{y},{z}
+GRIDFILE test1.pdb
+INNERBOX 15,15,15
+OUTERBOX 30,30,30
+RECEP_FILE receptor_frame1.maegz
+"""
+
+glide_in = GRID_IN
+glide -WAIT -LOCAL -RESTART glide_in
+
+
+#DOCK 
+GLIDE_ES4 = '''
+GRIDFILE  grid_1.zip  
+LIGANDFILE   ./lig.maegz
+DOCKING_METHOD   confgen
+POSES_PER_LIG   100
+POSTDOCK_NPOSE   100
+PRECISION   SP
+NENHANCED_SAMPLING   4
+'''
+dock.in = GLIDE_ES4
+glide dock.in
+
