@@ -1,7 +1,7 @@
 ## Author: David Gae
 
 ## Plan
-Reading blogs, tutorials, and explanations on Google illustrated that planning is the most crucial step in vibe coding. So, I turned my GitHub dashboard into a Vibe Code. Next, craft your language statements to include the framework of your design. Following existing libraries and elements next. Then end with the statement, "Please output the steps we need to go through to build the site." (Coxon, D.)
+Blogs, tutorials, and explanations on Google illustrate that planning is the most crucial step in vibe coding. So, I turned my GitHub dashboard into a Vibe Code. Next, craft your language statements by including the frameworks of your design and follow existing libraries and elements. Then end with the statement, "Please output the steps we need to go through to build the site." (Coxon, D.)
 
 Language example:
 I will work to code a component-based website for my bioinformatics dashboard. I will be using d3.js, app.js, sample.json, and index.html. Please output the steps we need to go through in order to build the site.
